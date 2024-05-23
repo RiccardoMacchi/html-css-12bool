@@ -1,18 +1,17 @@
 /* Framework a 12 collone */
 
 .container {
-    width: 100%;
+    width: 1170px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0;
     box-sizing: border-box;
     }
   
 /* Impostazioni di base per le righe */
 .row {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    margin-left: -15px;
-    margin-right: -15px;
     }
 
 
@@ -78,3 +77,49 @@
     max-width: calc(100% / 12 * 12);
 }
   
+
+/* Impostazioni offset */
+
+.offset-1 {
+    margin-left: calc(100% / 12 * 1);
+}
+
+.offset-2 {
+    margin-left: calc(100% / 12 * 2);
+}
+
+.offset-3 {
+    margin-left: calc(100% / 12 * 3);
+}
+
+.offset-4 {
+    margin-left: calc(100% / 12 * 4);
+}
+
+.offset-5 {
+    margin-left: calc(100% / 12 * 5);
+}
+
+.offset-6 {
+    margin-left: calc(100% / 12 * 6);
+}
+
+.offset-7 {
+    margin-left: calc(100% / 12 * 7);
+}
+
+.offset-8 {
+    margin-left: calc(100% / 12 * 8);
+}
+
+.offset-9 {
+    margin-left: calc(100% / 12 * 9);
+}
+
+.offset-10 {
+    margin-left: calc(100% / 12 * 10);
+}
+
+.offset-11 {
+    margin-left: calc(100% / 12 * 11);
+}
